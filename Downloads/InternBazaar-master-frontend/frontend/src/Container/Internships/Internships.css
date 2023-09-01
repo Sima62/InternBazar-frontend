@@ -1,0 +1,65 @@
+.body {
+  background-color: #f0f0f0;
+}
+
+.Row {
+  padding: 1rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.shadow {
+  box-shadow: -1px 2px 5px 5px rgba(219, 219, 219, 1);
+}
+
+.heading {
+  font-weight: bold;
+  color: #5e5e5e;
+}
+
+.table {
+  margin: 1rem;
+}
+
+.internshipCard {
+  box-shadow: -1px 2px 5px 5px rgba(219, 219, 219, 1);
+}
+
+@media (min-width: 991px) {
+  .link {
+    margin-left: 80%;
+  }
+  .internshipCard {
+    min-width: 100%;
+    box-shadow: -1px 2px 5px 5px rgba(219, 219, 219, 1);
+  }
+}
+
+.container {
+  background-color: #fff;
+}
+
+.button {
+  margin-left: 45%;
+}
+
+@media (max-width: 320px) {
+  .body {
+    font-size: 90%;
+  }
+  .Row {
+    padding: 0.5rem;
+  }
+}
+
+.click :hover {
+  cursor: pointer;
+  color: #0388fc;
+}
+
+.clicked {
+  color: #0388fc;
+  background: #0388fc;
+}
